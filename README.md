@@ -26,6 +26,8 @@ This will install the template for your current user in one of the following loc
 * OS X / macOS: `~/Library/texmf/tex/latex`
 * Windows: `C:\Users\{username}\texmf\tex\latex`
 
+For m1 Macs, `TEXMFHOME` may not exist by default as a variable and needs `TEXMFHOME=~/Library/texmfhome` adding to your rc file. Without doing so, the pdf's will generate with graphical errors.
+
 LaTeX will find the package automatically.
 
 1. Prepare your `TEXMFHOME` directory.
